@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.section-header {
+    font-size: 3.5vw;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+    padding-bottom: 3vh;
+}
+
+.navbar a {
+    color: white;
+    padding: 1.5vh 2vw;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Space Mono", monospace;
+}
+
+.navbar a:hover {
+    color: red;
+}

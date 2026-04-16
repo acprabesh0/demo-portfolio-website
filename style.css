@@ -1,0 +1,222 @@
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  margin-bottom: 5vh;
+  padding-bottom: 3vh;
+}
+
+.navbar a {
+  color: white;
+  padding: 1.5vh 2vw;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3em;
+}
+.navbar a:hover {
+  color: red;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.nameapost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pfp img {
+  border-radius: 50%;
+  height: 30vw;
+  width: 30vw;
+  max-width: 600px;
+  max-height: 600px;
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+
+.name {
+  display: inline-block;
+}
+
+.name h1 {
+  font-size: 4vw;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.post p {
+  font-size: 2vw;
+  color: aqua;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 5vh;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw 1vw 15vw 1vw;
+  margin-right: 3vw;
+  background-color: #333335;
+  width: 20vw;
+  height: 20vw;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 2%;
+}
+
+.box:hover{
+  transform: scale(1.1,1.1);
+}
+
+.section-header {
+  font-size: 3.5vw;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box h1 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.box p {
+  text-align: justify;
+  font-family: "Space Mono", monospace;
+}
+
+
+.skills-grid{
+  display: flex;
+  justify-content: center;
+}
+
+.skills-grid div{
+  margin: 1vh 2vw 1vh 2vw;
+  padding: 1vh 2vw 1vh 2vw;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
+.html-card {
+  background-color: #E34F26;
+}
+
+.css-card {
+  background-color: #1572B6;
+}
+
+.js-card {
+  background-color: #323330;
+}
+
+.linux-card {
+  background-color: #0F172A;
+}
+
+.python-card {
+  background-color:#306998;
+}
+
+.git-card {
+  background-color: #B33A2B;
+}
+
+.footer{
+  background-color: #222222;
+  margin: 5vh 0 0 0;
+  padding: 5vh 0;
+}
+/* fancy elements  */
+
+/* copied buttons */
+
+.readmore {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+.readmore span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+.readmore span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+.readmore span:not(hover) {
+  transition: all 1s;
+}
+
+/* copied button */
+
+.footer h1{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.socials{
+  margin-top: 3vh;
+}
+
+.socials a{
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+  margin-left: 2vw;
+}
